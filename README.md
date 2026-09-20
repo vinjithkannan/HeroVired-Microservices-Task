@@ -5,6 +5,10 @@ This document provides details on testing various services after running the `do
 
 ---
 
+![Running Containers - cli](screenshots/containers-up-running.png)
+![Running Containers - docker](screenshots/docker-containers.png)
+
+
 ## Services and Endpoints
 
 ### **User Service**
@@ -16,6 +20,7 @@ This document provides details on testing various services after running the `do
     ```
     Or open in your browser: [http://localhost:3000/users](http://localhost:3000/users)
 
+![User Service](screenshots/users-api.png)
 ---
 
 ### **Product Service**
@@ -27,6 +32,7 @@ This document provides details on testing various services after running the `do
     ```
     Or open in your browser: [http://localhost:3001/products](http://localhost:3001/products)
 
+![Product Service](screenshots/products-api.png)
 ---
 
 ### **Order Service**
@@ -38,6 +44,7 @@ This document provides details on testing various services after running the `do
     ```
     Or open in your browser: [http://localhost:3002/orders](http://localhost:3002/orders)
 
+![Product Service](screenshots/orders-api.png)
 ---
 
 ### **Gateway Service**
@@ -56,6 +63,12 @@ This document provides details on testing various services after running the `do
     curl http://localhost:3003/api/orders
     ```
 
+  ![Api Service 1](screenshots/gateway-users.png)
+  ![Api Service 2](screenshots/gateway-products.png)
+  ![Api Service 3](screenshots/gateway-orders.png)
+
+
+  ![Curl O/P](screenshots/curl-op.png)
 ---
 
 ## Instructions

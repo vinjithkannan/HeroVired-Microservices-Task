@@ -169,3 +169,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+/Microservices/user-service/node_modules/
+/Microservices/product-service/node_modules/
+/Microservices/order-service/node_modules/
+/Microservices/gateway-service/node_modules/
